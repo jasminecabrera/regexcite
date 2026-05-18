@@ -32,7 +32,7 @@ columns in the output; if an input is too short, the result will be padded
 with \code{""}.}
 }
 \value{
-A list
+A character vector.
 }
 \description{
 Splits a string and converts to numeric

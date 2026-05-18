@@ -3,7 +3,7 @@
 #' @param string A character vector with, at most, one element.
 #' @inheritParams stringr::str_split
 #'
-#' @returns A list
+#' @returns A character vector.
 #'
 #' @export
 #'
