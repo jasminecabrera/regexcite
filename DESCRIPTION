@@ -1,11 +1,15 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Title: The regexcite Package
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Jasmine Kristine", "Cabrera", , "jkscabrera2003@gmail.com", role = c("aut", "cre"))
+Description: A few functions to make common tasks with regular expressions easier.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
